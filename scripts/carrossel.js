@@ -8,7 +8,7 @@ function nextCard() {
   } else if (document.documentElement.clientWidth === 480) {
     carrossel.scrollLeft += carrossel.clientWidth;
   } else {
-    carrossel.scrollLeft += carrossel.clientWidth + 16;
+    carrossel.scrollLeft += carrossel.clientWidth;
   }
 }
 
@@ -18,7 +18,7 @@ function previousCard() {
   } else if (document.documentElement.clientWidth === 480) {
     carrossel.scrollLeft -= carrossel.clientWidth;
   } else {
-    carrossel.scrollLeft -= carrossel.clientWidth + 16;
+    carrossel.scrollLeft -= carrossel.clientWidth;
   }
 }
 

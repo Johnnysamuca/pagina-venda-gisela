@@ -304,7 +304,7 @@ li {
   overflow: hidden;
   background-color: black;
   color: white;
-  max-height: 40rem;
+  height: max-content;
 }
 @media (max-width: 47.94em) {
   .carrossel_item {
@@ -314,6 +314,7 @@ li {
 @media (max-width: 30em) {
   .carrossel_item {
     min-width: calc((100% - 1.6rem) / 1);
+    height: 45rem;
   }
 }
 .carrossel_item img {

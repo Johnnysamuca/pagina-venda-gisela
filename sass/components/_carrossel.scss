@@ -15,7 +15,7 @@
     overflow: hidden;
     background-color: black;
     color: white;
-    max-height: 40rem;
+    height: max-content;
 
     @include respond(medium) {
       min-width: calc(calc(100% - calc(1.6rem * 1)) / 2);
@@ -23,6 +23,7 @@
 
     @include respond(small) {
       min-width: calc(calc(100% - calc(1.6rem * 1)) / 1);
+      height: 45rem;
     }
 
     & img {

@@ -29,6 +29,12 @@ $purple-very-dark: darken($purple-dark, 15%);
       @content;
     }
   }
+  @if $tamanho == largeCarrossel {
+    @media (max-width: 57.25em) {
+      @content;
+    }
+  }
+
   @if $tamanho == medium {
     @media (max-width: 47.94em) {
       @content;
