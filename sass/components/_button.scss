@@ -1,0 +1,22 @@
+//  Componente Botão
+
+.btn {
+  font-size: 1.92rem;
+  padding: 0.86rem 2.76rem;
+  width: 50%;
+  background-color: $black;
+  color: $white;
+  border-radius: 1rem;
+  border: none;
+  transition: all ease-in 0.4s;
+  font-weight: 600;
+
+  @include respond(small) {
+    width: 80%;
+  }
+
+  &:hover {
+    background-color: $gray;
+    cursor: pointer;
+  }
+}

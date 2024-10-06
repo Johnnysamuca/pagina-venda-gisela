@@ -1,0 +1,50 @@
+.secao--feature-pagina-gisela {
+  background-color: $purple-dark;
+}
+
+.secao--preco {
+  background-color: $purple-light;
+}
+
+.secao--depoimentos {
+  background-color: $purple-dark;
+}
+
+.secao--depoimentos {
+  @include flex(column, center, start, 3.12rem);
+}
+
+.container--preco {
+  @include flex(row, center, center, 3.12rem);
+
+  @include respond(small) {
+    @include flex($flow: column, $aling: center, $gap: 2.3rem);
+  }
+}
+
+.carrossel_item--gisela {
+  background-color: $purple-light;
+}
+
+.carrossel_seta--gisela {
+  background-color: $purple-very-dark;
+}
+
+.btn--carrossel {
+  background-color: $purple-very-dark;
+
+  &:hover {
+    background-color: $purple-very-light;
+    color: $purple-very-dark;
+    font-weight: 600;
+  }
+}
+
+.container--rodape {
+  @include flex(row, center, space-between, 0);
+  padding: 2.3rem;
+
+  @include respond(small) {
+    @include flex(column, center, start, 1.92rem);
+  }
+}

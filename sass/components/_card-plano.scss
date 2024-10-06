@@ -1,0 +1,57 @@
+.caixa-plano {
+  @include flex($flow: column, $gap: 2.3rem);
+  background-color: $purple-dark;
+  padding: 2rem 2.76rem;
+  border-radius: 0.65rem;
+  width: 40rem;
+  color: #fff;
+
+  &_caixa-titulo {
+    text-align: center;
+  }
+
+  &_titulo {
+    font-size: 2.3rem;
+  }
+
+  &_periodo {
+    opacity: 0.5;
+  }
+
+  &_lista-plano {
+    @include flex($flow: column, $gap: 1.02rem);
+  }
+
+  &_item {
+    @include flex($gap: 1.6rem);
+  }
+
+  &_caixa-svg {
+    width: 2rem;
+  }
+
+  &_valor {
+    text-align: center;
+    align-self: center;
+  }
+
+  &_preco {
+    font-size: 1.92rem;
+    font-weight: 700;
+  }
+
+  &_metodo-pagamento {
+    opacity: 0.5;
+  }
+
+  &_btn {
+    width: 100%;
+    background-color: $purple-very-dark;
+
+    &:hover {
+      background-color: $purple-very-light;
+      color: $purple-very-dark;
+      font-weight: 600;
+    }
+  }
+}

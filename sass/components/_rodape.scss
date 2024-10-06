@@ -1,0 +1,23 @@
+.rodape {
+  background-color: $purple-very-light;
+
+  &_dev {
+    font-size: 1.92rem;
+  }
+
+  &_caixa-redes-sociais {
+    @include flex($aling: center, $gap: 1.02rem);
+  }
+
+  &_titulo-redes {
+    font-size: 1.92rem;
+    font-weight: 700;
+    margin-right: 2rem;
+    color: $purple-very-dark;
+  }
+
+  &_rede-social {
+    width: 3rem;
+    cursor: pointer;
+  }
+}

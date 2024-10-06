@@ -1,0 +1,9 @@
+.secao--hero {
+  @include flex($aling: center, $justify: center);
+  padding: 0;
+  background-image: url(../../assets/img-hero.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 45rem;
+}

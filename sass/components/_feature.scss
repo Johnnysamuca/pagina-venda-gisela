@@ -1,0 +1,19 @@
+.secao--feature {
+  @include flex(column, center, start, 3.12rem);
+}
+
+.container--feature {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3rem;
+  row-gap: 2rem;
+  max-width: 100rem;
+
+  @include respond(medium) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include respond(small) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

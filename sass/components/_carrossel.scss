@@ -1,0 +1,66 @@
+.carrossel {
+  max-width: 80vw;
+  margin: 0 auto;
+  position: relative;
+
+  &_container-itens {
+    @include flex($gap: 1.6rem);
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+
+  &_item {
+    min-width: calc(calc(100% - calc(1.6rem * 2)) / 3);
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    max-height: 40rem;
+
+    @include respond(medium) {
+      min-width: calc(calc(100% - calc(1.6rem * 1)) / 2);
+    }
+
+    @include respond(small) {
+      min-width: calc(calc(100% - calc(1.6rem * 1)) / 1);
+    }
+
+    & img {
+      height: 50%;
+    }
+  }
+
+  &_conteudo {
+    @include flex($flow: column, $gap: 1.28rem);
+    padding: 1.02rem 1.28rem;
+  }
+
+  &_titulo {
+    font-size: 1.92rem;
+    font-weight: 700;
+  }
+
+  &_seta {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    padding: 0.86rem;
+    cursor: pointer;
+
+    &--esquerda {
+      left: 0;
+      transform: translate(-105%, 328%);
+    }
+
+    &--direita {
+      right: 0;
+      transform: translate(105%, 328%);
+
+      @include respond(small) {
+        transform: translate(75%, 328%);
+      }
+    }
+  }
+}
