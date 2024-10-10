@@ -49,6 +49,10 @@ li {
   list-style: none;
 }
 
+.txt-apagado {
+  opacity: 50%;
+}
+
 .secao {
   padding: 4.88rem 3.12rem;
   box-shadow: 0 0.1rem 0.6rem #000;
@@ -176,7 +180,7 @@ li {
   flex-flow: column;
   align-items: center;
   justify-content: start;
-  gap: 3.12rem;
+  gap: 4.88rem;
 }
 
 .container--feature {
@@ -243,9 +247,6 @@ li {
 .caixa-plano_titulo {
   font-size: 2.3rem;
 }
-.caixa-plano_periodo {
-  opacity: 0.5;
-}
 .caixa-plano_lista-plano {
   display: flex;
   flex-flow: column;
@@ -270,9 +271,6 @@ li {
 .caixa-plano_preco {
   font-size: 1.92rem;
   font-weight: 700;
-}
-.caixa-plano_metodo-pagamento {
-  opacity: 0.5;
 }
 .caixa-plano_btn {
   width: 100%;
@@ -397,6 +395,9 @@ li {
 }
 
 .carrossel_seta--gisela {
+  background-color: #e0aaff;
+}
+.carrossel_seta--gisela:active {
   background-color: #150325;
 }
 

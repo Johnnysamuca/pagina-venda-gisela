@@ -17,12 +17,13 @@
 
         <div class="caixa-hero-video_video">
         <iframe
+        loading="lazy"
           width="100%"
           height="100%"
           src="https://www.youtube.com/embed/VbmBhlGTndQ?si=PHb4QqvwJuY_MOwD"
           title="YouTube video player"
           frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allow="autoplay; fullscreen; picture-in-picture"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
         >
@@ -33,7 +34,7 @@
     <section class="secao secao--feature secao--feature-pagina-gisela">
       <h2 class="subtitulo">Benefícios para o seu corpo!</h2>
       <div class="container container--feature">
-        <div class="caixa">
+        <div class="caixa headline">
           <div class="caixa_logo-titulo">
             <h3>Subtitulo 1</h3>
             <div class="caixa_svg">
@@ -54,7 +55,7 @@
           </div>
         </div>
 
-        <div class="caixa">
+        <div class="caixa headline">
           <div class="caixa_logo-titulo">
             <h3>Subtitulo 2</h3>
             <div class="caixa_svg">
@@ -75,7 +76,7 @@
           </div>
         </div>
 
-        <div class="caixa">
+        <div class="caixa headline">
           <div class="caixa_logo-titulo">
             <h3>Subtitulo 3</h3>
             <div class="caixa_svg">
@@ -96,7 +97,7 @@
           </div>
         </div>
 
-        <div class="caixa">
+        <div class="caixa headline">
           <div class="caixa_logo-titulo">
             <h3>Subtitulo 4</h3>
             <div class="caixa_svg">
@@ -117,7 +118,7 @@
           </div>
         </div>
 
-        <div class="caixa">
+        <div class="caixa headline">
           <div class="caixa_logo-titulo">
             <h3>Subtitulo 5</h3>
             <div class="caixa_svg">
@@ -138,7 +139,7 @@
           </div>
         </div>
 
-        <div class="caixa">
+        <div class="caixa headline">
           <div class="caixa_logo-titulo">
             <h3>Subtitulo 6</h3>
             <div class="caixa_svg">
@@ -165,21 +166,21 @@
       <h2 class="subtitulo">Preço que cabe no seu bolso!</h2>
       <div class="container container--preco">
 
-          <div class="caixa-plano">
+          <div class="caixa-plano headline">
             <div class="caixa-plano_caixa-titulo">
               <h3 class="caixa-plano_titulo subSubtitulo">Verão</h3>
-              <p class="caixa-plano_periodo">Mensal</p>
+              <p class="caixa-plano_periodo txt-apagado">Mensal</p>
             </div>
 
             <ul class="caixa-plano_lista-plano">
-              <li class="caixa-plano_item"> 
+              <li class="caixa-plano_item txt-apagado"> 
                 <div class="caixa-plano_caixa-svg">
-                <img loading="lazy" class="img" src="https://www.svgrepo.com/show/167754/checked.svg" alt="Icone de checked">
+                <img loading="lazy" class="img" src="/assets/x-vermelho.svg" alt="Icone de closed">
               </div> Lorem Impsun de exemplo</li>
 
-              <li class="caixa-plano_item"> 
+              <li class="caixa-plano_item txt-apagado"> 
                 <div class="caixa-plano_caixa-svg">
-                <img loading="lazy" class="img" src="https://www.svgrepo.com/show/167754/checked.svg" alt="Icone de checked">
+                <img loading="lazy" class="img" src="/assets/x-vermelho.svg" alt="Icone de closed">
               </div> Lorem Impsun de exemplo</li>
 
               <li class="caixa-plano_item"> 
@@ -204,17 +205,17 @@
             </ul>
 
             <div class="caixa-plano_valor">
-              <div class="caixa-plano_preco">$100</div>
-              <p class="caixa-plano_metodo-pagamento">A vista  (PIX)</p>
+              <div class="caixa-plano_preco">R$100</div>
+              <p class="caixa-plano_metodo-pagamento txt-apagado">A vista  (PIX)</p>
             </div>
 
             <button class="btn caixa-plano_btn">Comprar Agora!</button>
           </div>
 
-          <div class="caixa-plano">
+          <div class="caixa-plano headline">
             <div class="caixa-plano_caixa-titulo">
               <h3 class="caixa-plano_titulo subSubtitulo">Verão Definida(o)</h3>
-              <p class="caixa-plano_periodo">Mensal</p>
+              <p class="caixa-plano_periodo txt-apagado">Mensal</p>
             </div>
 
             <ul class="caixa-plano_lista-plano">
@@ -250,8 +251,8 @@
             </ul>
 
             <div class="caixa-plano_valor">
-              <div class="caixa-plano_preco">$300</div>
-              <p class="caixa-plano_metodo-pagamento">Cartão de crédito 2x de $150</p>
+              <div class="caixa-plano_preco">R$300</div>
+              <p class="caixa-plano_metodo-pagamento txt-apagado">Cartão de crédito 2x de $150</p>
             </div>
 
             <button class="btn caixa-plano_btn">Comprar Agora!</button>
@@ -261,6 +262,7 @@
 
     <section class="secao secao--depoimentos">
       <h2 class="subtitulo">Metódologia Testada e Aprovada!</h2>
+
       <div class="carrossel carrossel--gisela">
         <div class="carrossel_seta carrossel_seta--esquerda carrossel_seta--gisela">
           <img
@@ -382,6 +384,7 @@
           </div>
         </div>
       </div>
+
       <button class="btn btn--carrossel">Não vou perder a oportunidade!</button>
     </section>
   </main>
@@ -406,5 +409,6 @@
   </footer>
     <script src="./scripts/headline.js"></script>
     <script src="./scripts/carrossel.js"></script>
+    <script src="./scripts/scrollTop.js"></script>
   </body>
 </html>

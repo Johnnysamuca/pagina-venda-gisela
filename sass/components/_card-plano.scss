@@ -14,10 +14,6 @@
     font-size: 2.3rem;
   }
 
-  &_periodo {
-    opacity: 0.5;
-  }
-
   &_lista-plano {
     @include flex($flow: column, $gap: 1.02rem);
   }
@@ -38,10 +34,6 @@
   &_preco {
     font-size: 1.92rem;
     font-weight: 700;
-  }
-
-  &_metodo-pagamento {
-    opacity: 0.5;
   }
 
   &_btn {

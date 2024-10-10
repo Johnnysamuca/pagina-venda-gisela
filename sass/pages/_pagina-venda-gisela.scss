@@ -27,7 +27,11 @@
 }
 
 .carrossel_seta--gisela {
-  background-color: $purple-very-dark;
+  background-color: $purple-very-light;
+
+  &:active {
+    background-color: $purple-very-dark;
+  }
 }
 
 .btn--carrossel {
