@@ -353,7 +353,7 @@ li {
   }
 }
 
-.secao--feature-pagina-gisela {
+.secao--feature-pagina-venda {
   background-color: #3c096c;
 }
 
@@ -390,14 +390,14 @@ li {
   }
 }
 
-.carrossel_item--gisela {
+.carrossel_item--venda {
   background-color: #5a189a;
 }
 
-.carrossel_seta--gisela {
+.carrossel_seta--venda {
   background-color: #e0aaff;
 }
-.carrossel_seta--gisela:active {
+.carrossel_seta--venda:active {
   background-color: #150325;
 }
 
